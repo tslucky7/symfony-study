@@ -22,3 +22,7 @@
     {% endif %}
 {% endfor %}
 </table>
+
+{% for item in [98, 36, 59, 71, 109, 52, 49] | sort %}
+    <li>{{item}}</li>
+{% endfor %}
